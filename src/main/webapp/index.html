@@ -1,25 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Java Web Starter Application</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="style.css" />
-</head>
-<body>
-	<table>
-		<tr>
-			<td style='width: 30%;'>
-				<img class = "newappIcon" src='images/newapp-icon.png'>
-			</td>
-			<td>
-				<!-- The "Hello World!" message comes from /SimpleServlet -->
-				<h1 id = "message"></h1>
-				
-				<p class='description'></p> Thanks for creating a <span class="blue">Liberty for Java Starter Application</span>.
-			</td>
-		</tr>
-	</table>
-	<!-- Call SimpleServlet to get the "Hello World" message  -->
-	<script type="text/javascript" src="index.js"></script>
-</body>
-</html>
+<!doctype html> 
+<html> 
+  <head> 
+
+    <meta charset="utf-8" /> 
+    <title>Web Speech APIサンプル</title> 
+    <style> 
+      body { 
+        padding: 15px 5px; 
+        text-align: center; 
+       } 
+       li { 
+         list-style-type: none; 
+       } 
+       #btn { 
+         width: 150px; 
+         height: 50px; 
+         margin-bottom: 20px; 
+       } 
+     </style> 
+   </head> 
+   <body> 
+     <h3>Web Speech APIサンプル</h3> 
+     <button id="btn">音声認識開始</button> 
+     <p><small>記録したい音声メモを喋って下さい。</small></p> 
+     <p><small>「合い言葉」を喋ると何かが起きますよ。</small></p> 
+     <p><strong>【検索】【ビデオ】【ラジオ】【イベント】</strong></p> 
+     <div id="content"></div> 
+      
+    
+      
+     <script src="index.js"></script> 
+   </body> 
+ </html> 
